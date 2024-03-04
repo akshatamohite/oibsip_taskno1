@@ -1,1 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friendship Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to our Friendship Page</h1>
+        <nav>
+            <a href="#main-content" class="nav">Home</a>
+            <a href="#about" class="nav">About us</a>
+            <a href="#community" class="nav">Join Community</a>
+        </nav>
+    </header>
+    <section class="main-content" id="main-content">
+        <img src="/frndimg.webp" alt="Friendship image" class="frndimg">
+    </section>
+    <br>
+    <section class="about" id="about">
+        <h2>About Us</h2>
+        <p>We think that friendship has the ability to enrich our lives with happiness, comfort, and humor.</p>
+        <p>Come celebrate with us and make connections with those who cherish these meaningful relationships:
+            friendships.</p>
+
+    </section>
+    <br>
+
+    <section class="community" id="community">
+        <H2>Wanna join our friendship community....</H2>
+        <h3>Click on this join button available below.</h3>
+        <button id="joinButton">Join Now</button>
+    </section>
+    <footer>
+        <p>2024 Friendship Page</p>
+    </footer>
+
+    <script>
+        document.getElementById("joinButton").addEventListener("click", function () {
+            alert("Thank you for joining our Friendship community!");
+        });
+
+    </script>
+</body>
+
+</html>

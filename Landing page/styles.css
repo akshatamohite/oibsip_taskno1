@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #79a2bd;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+}
+
+nav {
+    text-align: right;
+    padding-right: 5%;
+}
+
+.nav {
+    color: #fff;
+    text-align: right;
+    padding-right: 2%;
+
+}
+
+.nav:hover {
+    color: #3f5972;
+
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.frndimg {
+    height: auto;
+    width: 100%;
+}
+
+.about {
+    text-align: center;
+    background-color: #c6ddec;
+    padding: 10% 10% 10% 10%;
+    margin: 5%;
+}
+
+.community {
+    text-align: center;
+    background-color: #c6ddec;
+    padding: 10% 10% 10% 10%;
+    margin: 5%;
+}
+
+button {
+    background-color: #2ca5f6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #85cbf9;
+}
+
+footer {
+    background-color: #34495e;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
